@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SettingsViewController">
+            <connections>
+                <outlet property="btnAccountDelete" destination="P3o-ma-kao" id="OZS-lA-cYF"/>
+                <outlet property="btnFemale" destination="2nZ-IX-ZKa" id="jjY-kP-FKv"/>
+                <outlet property="btnLogout" destination="CF5-cD-KpT" id="pJd-fF-au9"/>
+                <outlet property="btnMale" destination="J4G-4w-2xW" id="MVN-4M-4iE"/>
+                <outlet property="btnSubmitt" destination="TOK-ic-vgq" id="nOQ-AW-JpO"/>
+                <outlet property="btncontactUs" destination="8NL-6u-wfl" id="GKq-1T-hJ0"/>
+                <outlet property="lblAgeMin" destination="9rS-r9-uXp" id="kl0-wm-37P"/>
+                <outlet property="lblDistance" destination="34A-4f-0uk" id="Ubs-UW-Aon"/>
+                <outlet property="lblIAM" destination="iYi-St-iIo" id="tUH-7c-gB0"/>
+                <outlet property="lblLimitSearch" destination="3fe-cX-w3H" id="xOo-j2-kNs"/>
+                <outlet property="lblMen" destination="7gI-0x-3OF" id="ctX-94-XdU"/>
+                <outlet property="lblShowAges" destination="ngC-Qn-gWY" id="4eO-Bg-2hH"/>
+                <outlet property="lblShowMe" destination="MGU-HB-3gt" id="GU7-fi-Q0S"/>
+                <outlet property="lblWomen" destination="O5h-UF-WOn" id="m9D-dl-j6t"/>
+                <outlet property="scrollview" destination="8KT-Yd-Vrc" id="Uml-Ut-eNQ"/>
+                <outlet property="sliderAgeBox" destination="x26-5u-55f" id="ptk-fi-xA5"/>
+                <outlet property="sliderDistance" destination="RhB-VE-MdA" id="wp4-KX-IyT"/>
+                <outlet property="sliderDistanceBox" destination="mlz-IS-0fO" id="Ndh-La-F1h"/>
+                <outlet property="swichFemale" destination="Bcu-qS-pdn" id="d7n-LL-UbY"/>
+                <outlet property="switchMale" destination="lxW-kX-iWl" id="OQl-Pz-fZ6"/>
+                <outlet property="view" destination="1" id="3"/>
+                <outlet property="viewBG" destination="A2F-CT-Sr9" id="hzL-y9-7sW"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="8KT-Yd-Vrc">
+                    <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" id="A2F-CT-Sr9">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="588"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="show_me_tab.png" id="jpT-w5-bTm">
+                                    <rect key="frame" x="14" y="110" width="294" height="76"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Women" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="O5h-UF-WOn">
+                                    <rect key="frame" x="47" y="156" width="189" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="singal_tab.png" id="Cvs-Y9-YtT">
+                                    <rect key="frame" x="10" y="26" width="298" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="singal_tab.png" id="mlz-IS-0fO">
+                                    <rect key="frame" x="11" y="221" width="298" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="singal_tab.png" id="x26-5u-55f">
+                                    <rect key="frame" x="12" y="314" width="298" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </imageView>
+                                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="J4G-4w-2xW">
+                                    <rect key="frame" x="19" y="33" width="134" height="37"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="Male" backgroundImage="indicator_tab.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnAction:" destination="-1" eventType="touchUpInside" id="hSS-KM-JgA"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="2nZ-IX-ZKa">
+                                    <rect key="frame" x="167" y="33" width="134" height="37"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="Female">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnAction:" destination="-1" eventType="touchUpInside" id="bzb-vI-KbE"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" I Am :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="iYi-St-iIo">
+                                    <rect key="frame" x="13" y="4" width="294" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Show Me :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MGU-HB-3gt">
+                                    <rect key="frame" x="14" y="88" width="294" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Limit Search To :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3fe-cX-w3H">
+                                    <rect key="frame" x="13" y="199" width="140" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Show Ages :" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ngC-Qn-gWY">
+                                    <rect key="frame" x="13" y="291" width="140" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="lxW-kX-iWl">
+                                    <rect key="frame" x="222" y="114" width="51" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <connections>
+                                        <action selector="setState:" destination="-1" eventType="valueChanged" id="rgO-w3-RRe"/>
+                                    </connections>
+                                </switch>
+                                <switch opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="Bcu-qS-pdn">
+                                    <rect key="frame" x="222" y="151" width="51" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <connections>
+                                        <action selector="setState:" destination="-1" eventType="valueChanged" id="Grh-vQ-Acy"/>
+                                    </connections>
+                                </switch>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Men" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="7gI-0x-3OF">
+                                    <rect key="frame" x="47" y="117" width="189" height="25"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" id="RhB-VE-MdA">
+                                    <rect key="frame" x="27" y="230" width="266" height="34"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <connections>
+                                        <action selector="sliderChange:" destination="-1" eventType="valueChanged" id="QVw-Kp-E7D"/>
+                                    </connections>
+                                </slider>
+                                <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8NL-6u-wfl">
+                                    <rect key="frame" x="9" y="375" width="146" height="43"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="Contact Us" backgroundImage="logout_tab_off.png">
+                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="logout_tab_on.png"/>
+                                    <connections>
+                                        <action selector="btnActionBottom:" destination="-1" eventType="touchUpInside" id="37O-R4-OG6"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="CF5-cD-KpT">
+                                    <rect key="frame" x="163" y="375" width="146" height="43"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <state key="normal" title="Log Out" backgroundImage="logout_tab_off.png">
+                                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="logout_tab_on.png"/>
+                                    <connections>
+                                        <action selector="btnActionBottom:" destination="-1" eventType="touchUpInside" id="8ld-oY-GaZ"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="9rS-r9-uXp">
+                                    <rect key="frame" x="161" y="277" width="146" height="35"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="34A-4f-0uk">
+                                    <rect key="frame" x="161" y="187" width="146" height="35"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="TOK-ic-vgq">
+                                    <rect key="frame" x="79" y="434" width="146" height="43"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="Update" backgroundImage="logout_tab_off.png">
+                                        <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="logout_tab_on.png"/>
+                                    <connections>
+                                        <action selector="btnActionBottom:" destination="-1" eventType="touchUpInside" id="V2D-Yp-yNI"/>
+                                    </connections>
+                                </button>
+                                <button hidden="YES" opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="P3o-ma-kao">
+                                    <rect key="frame" x="10" y="477" width="296" height="49"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <state key="normal" title="Delete Account" backgroundImage="delete_account_btn_off.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <state key="highlighted" backgroundImage="delete_account_btn_on.png"/>
+                                    <connections>
+                                        <action selector="btnActionBottom:" destination="-1" eventType="touchUpInside" id="Kxu-Lc-Xdb"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="blackOpaque"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="delete_account_btn_off.png" width="296" height="49"/>
+        <image name="delete_account_btn_on.png" width="296" height="49"/>
+        <image name="indicator_tab.png" width="134" height="37"/>
+        <image name="logout_tab_off.png" width="146" height="43"/>
+        <image name="logout_tab_on.png" width="146" height="43"/>
+        <image name="show_me_tab.png" width="294" height="76"/>
+        <image name="singal_tab.png" width="298" height="50"/>
+    </resources>
+</document>
